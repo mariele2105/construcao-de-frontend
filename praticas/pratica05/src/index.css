@@ -1,0 +1,26 @@
+/* a) Limpa os espaçamentos externos e internos de todos os elementos e define o box-sizing */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* b) Define o estilo para a tag body */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #f4f4f4;
+  color: #333;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
+}
+
+/* c) Garante que o root ocupe toda a altura da tela do navegador */
+#root {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+

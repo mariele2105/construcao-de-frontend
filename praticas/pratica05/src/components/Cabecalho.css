@@ -1,0 +1,27 @@
+/* e) Estilos para a tag header */
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* f) Estilos para a tag div dentro de header */
+header div {
+    display: flex;
+    align-items: center;
+}
+
+/* g) Estilos para a tag img dentro de header */
+header img {
+    max-width: 50px;
+    margin-right: 16px;
+    cursor: pointer;
+}
+
+/* h) Estilos para a tag h1 dentro de header */
+header h1 {
+    font-size: 1.8em;
+}
